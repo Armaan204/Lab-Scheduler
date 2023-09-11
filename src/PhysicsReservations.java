@@ -301,7 +301,7 @@ public class PhysicsReservations extends JFrame{
 								mailutils.sendMail(
 										"Reservation Confirmation",
 										"This message is to confirm your physics lab reservation on " + date + " at " + time + ". Please check the pdf attached for more information",
-										"labreservationapp@gmail.com",
+										"your-email-address",
 										emailaddress);
 								layout3.setVisible(false);
 								dispose();
