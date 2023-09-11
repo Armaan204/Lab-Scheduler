@@ -54,7 +54,7 @@ public class PdfTextFormat {
 		
 		try {
 			Document document = new Document();
-			PdfWriter.getInstance(document, new FileOutputStream("C:\\Users\\armaa\\OneDrive\\Documents\\Armaan\\School\\Computer Science\\Computer Science IA\\Reservation Confirmation.pdf"));
+			PdfWriter.getInstance(document, new FileOutputStream("your-pdf-location"));
 			document.open();
 			document.add(title1);
 			document.add(space);
