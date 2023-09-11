@@ -96,9 +96,9 @@ public class User {
     public static Connection getConnection() throws Exception{
         try{
             String driver = "com.mysql.cj.jdbc.Driver";
-            String url = "jdbc:mysql://sql8.freesqldatabase.com:3306/sql8618977";
-            String username = "sql8618977";
-            String password = "bIiEj4KDQr";
+            String url = "your-database-url";
+            String username = "your-database-username";
+            String password = "your-database-password";
             Class.forName(driver);
 
             Connection conn = DriverManager.getConnection(url,username,password);
