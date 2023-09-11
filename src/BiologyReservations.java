@@ -288,7 +288,7 @@ public class BiologyReservations extends JFrame {
 								mailutils.sendMail(
 										"Reservation Confirmation",
 										"This message is to confirm your biology lab reservation on " + date + " at " + time + ". Please check the pdf attached for more information",
-										"labreservationapp@gmail.com",
+										"your-email-address",
 										emailaddress);
 								layout9.setVisible(false);
 								dispose();
