@@ -34,7 +34,7 @@ public class MailerApp {
 				new javax.mail.Authenticator() {
 					protected PasswordAuthentication getPasswordAuthentication() {
 						return new PasswordAuthentication(
-								"labreservationapp@gmail.com", "eolfywcnphfunnqb");
+								"your-email-address", "your-passkey");
 					}
 				});
 
@@ -52,7 +52,7 @@ public class MailerApp {
 			
 			//Attachment body part.
 			MimeBodyPart pdfAttachment = new MimeBodyPart();
-			pdfAttachment.attachFile("C:\\Users\\armaa\\OneDrive\\Documents\\Armaan\\School\\Computer Science\\Computer Science IA\\Reservation Confirmation.pdf");
+			pdfAttachment.attachFile("your-pdf-location");
 			
 			//Attach body parts
 			emailContent.addBodyPart(textBodyPart);
@@ -90,7 +90,7 @@ public class MailerApp {
 				new javax.mail.Authenticator() {
 					protected PasswordAuthentication getPasswordAuthentication() {
 						return new PasswordAuthentication(
-								"labreservationapp@gmail.com", "$ICLabReservation#");
+								"your-email-address", "your-passkey");
 					}
 				});
 
