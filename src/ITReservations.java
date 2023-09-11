@@ -288,7 +288,7 @@ public class ITReservations extends JFrame {
 								mailutils.sendMail(
 										"Reservation Confirmation",
 										"This message is to confirm your IT lab reservation on " + date + " at " + time + ". Please check the pdf attached for more information",
-										"labreservationapp@gmail.com",
+										"your-email-address",
 										emailaddress);
 								layout10.setVisible(false);
 								dispose();
