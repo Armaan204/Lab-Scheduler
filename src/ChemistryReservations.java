@@ -288,7 +288,7 @@ public class ChemistryReservations extends JFrame {
 								mailutils.sendMail(
 										"Reservation Confirmation",
 										"This message is to confirm your chemistry lab reservation on " + date + " at " + time + ". Please check the pdf attached for more information",
-										"labreservationapp@gmail.com",
+										"your-email-address",
 										emailaddress);
 								layout8.setVisible(false);
 								dispose();
